@@ -38,7 +38,7 @@ final ThemeData lightTheme = ThemeData(
   cardTheme: CardThemeData(
     color: lightColorScheme.surfaceContainer,
     elevation: 1,
-    margin: EdgeInsets.all(8),
+    margin: EdgeInsets.all(0),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
   inputDecorationTheme: InputDecorationTheme(
@@ -158,7 +158,7 @@ final ThemeData darkTheme = ThemeData(
   cardTheme: CardThemeData(
     color: darkColorScheme.surfaceContainer,
     elevation: 1,
-    margin: EdgeInsets.all(8),
+    margin: EdgeInsets.all(0),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
   inputDecorationTheme: InputDecorationTheme(

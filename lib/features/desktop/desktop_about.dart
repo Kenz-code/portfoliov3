@@ -12,9 +12,8 @@ class DesktopAbout extends StatelessWidget {
     final double screenWidth = MediaQuery.of(context).size.width;
     final double imageWidth = (screenWidth / 1920) * 900;
 
-    print(imageWidth);
-
     return ScreenSize(
+      minimumSize: 500,
       child: Stack(
         clipBehavior: Clip.none,
         children: [
@@ -49,11 +48,30 @@ class DesktopAbout extends StatelessWidget {
                         onPressed: () {},
                       )
                     ].row(),
+
+                    16.gapHeight,
+
+                    "I've been writing code since I was 10. Started with games,\nnow I build Flutter apps.".text().styled(color: context.cs.onSurfaceVariant)
                   ],
                 ).center(),
               ],
             ),
           ),
+
+          Row(
+            children: [
+              Image.asset(
+                "assets/kenbodev.png",
+                width: 48,
+                height: 48,
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+
+              16.gapRow,
+
+              "KenboDev".text(style: context.tt.labelLarge!.copyWith(color: context.cs.onSurfaceVariant)),
+            ],
+          ).paddingAll(64.0).alignTopLeft(),
       
           Positioned(
             right: -120,
