@@ -1,5 +1,5 @@
 name: portfoliov3
-description: "portfoliov3"
+description: "KenboDev"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -41,6 +41,7 @@ dependencies:
   google_fonts: ^8.0.2
   flutter_svg: ^2.2.4
   url_launcher: ^6.3.2
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:

@@ -1,11 +1,11 @@
 {
-    "name": "portfoliov3",
-    "short_name": "portfoliov3",
+    "name": "KenboDev",
+    "short_name": "KenboDev",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "portfoliov3",
+    "background_color": "#212529",
+    "theme_color": "#212529",
+    "description": "KenboDev",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

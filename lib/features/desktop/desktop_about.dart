@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:portfoliov3/core/extensions/context_extensions.dart';
 import 'package:portfoliov3/features/widgets/screen_size.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DesktopAbout extends StatelessWidget {
   const DesktopAbout({super.key});
@@ -45,7 +46,10 @@ class DesktopAbout extends StatelessWidget {
                           height: 24,
                           color: Theme.of(context).colorScheme.onSurfaceVariant,
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          final Uri url = Uri.parse("https://github.com/Kenz-code");
+                          launchUrl(url);
+                        },
                       )
                     ].row(),
 
