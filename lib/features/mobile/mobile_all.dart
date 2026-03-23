@@ -4,6 +4,7 @@ import 'package:portfoliov3/features/desktop/desktop_about.dart';
 import 'package:portfoliov3/features/mobile/mobile_about.dart';
 import 'package:portfoliov3/features/mobile/mobile_projects.dart';
 import 'package:portfoliov3/features/mobile/mobile_skills.dart';
+import 'package:portfoliov3/features/widgets/footer.dart';
 import 'package:portfoliov3/features/widgets/smooth_scroll/smooth_scroll_gate.dart';
 
 class MobileAll extends StatelessWidget {
@@ -20,6 +21,8 @@ class MobileAll extends StatelessWidget {
           MobileSkills(),
 
           MobileProjects(),
+
+          Footer(),
 
         ].column(),
       ),
